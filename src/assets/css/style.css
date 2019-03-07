@@ -1,0 +1,18 @@
+body{margin:0;font:16px/1 "微软雅黑";}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal;font-size:16px;}
+p,dl,dd{margin:0;}
+ul,ol{margin:0;padding:0;list-style:none;}
+strong,b{font-weight: normal}
+em,i{font-style: normal;}
+a{color:#000;text-decoration: none;}
+img{border:0;vertical-align: bottom} /*解决被a标签包裹时，在ie低版本浏览器中，有边框问题*/
+table{border-collapse: collapse; /*解决单元格和单元格之间间隙*/  }
+input,select,textarea{padding:0;outline: none;}
+.clear:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.clear{
+    *zoom:1
+}
